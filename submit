@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf S5_20206043* || exit 1
+mkdir S5_20206043 || exit 1
+cp main.cpp main.txt S5_20206043/. || exit 1
+zip -r S5_20206043.zip S5_20206043
